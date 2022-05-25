@@ -11,5 +11,7 @@ public class TvTest3 {
 
         System.out.println("T1 channel " + t1.channel);
         System.out.println("T2 channel " + t2.channel);
+        System.out.println("T2 channel " + t2.channel);
+        System.out.println("T2 channel " + t2.channel);
     }
 }

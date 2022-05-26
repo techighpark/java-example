@@ -14,11 +14,17 @@ class MyMath2 {
         return a * b;
     }
 
+    long multiply2(long c, long d) {
+        return c * d;
+    }
+
     double divide() {
         return (double) a / (double) b;
     }
 
     // without Instance Variable -> Class Method
+
+
     static long add(long a, long b) {
         return a + b;
     }

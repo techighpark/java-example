@@ -14,9 +14,9 @@ class MyMath2 {
         return a * b;
     }
 
-//    double divide() {
-//        return a / b;
-//    }
+    double divide() {
+        return (double) a / (double) b;
+    }
 
     // without Instance Variable -> Class Method
     static long add(long a, long b) {
@@ -48,9 +48,12 @@ public class MyMathTest2 {
 
         // Instance Method
         MyMath2 mm2 = new MyMath2();
+        mm2.a = 100L;
+        mm2.b = 300L;
+
         System.out.println(mm2.add());
         System.out.println(mm2.subtract());
         System.out.println(mm2.multiply());
-//        System.out.println(mm2.divide());
+        System.out.println(mm2.divide());
     }
 }

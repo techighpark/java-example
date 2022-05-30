@@ -3,10 +3,13 @@ package ch7;
 public class PointTest2 {
     public static void main(String[] args) {
         Point3D3 p33 = new Point3D3();
-        Point3D3 p34 = new Point3D3();
+        Point3D3 p34 = new Point3D3(50, 50, 50);
         System.out.println(p33.x);
         System.out.println(p33.y);
         System.out.println(p33.z);
+        System.out.println(p34.x);
+        System.out.println(p34.y);
+        System.out.println(p34.z);
 
     }
 }

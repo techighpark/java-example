@@ -40,7 +40,7 @@ class Buyer {
         }
         money -= p.price;
         bonusPoint += p.bonusPoint;
-        System.out.println("Purchase" + p);
+        System.out.println("Purchased " + p);
     }
 
 }
